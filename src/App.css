@@ -1,0 +1,133 @@
+* {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: #282c34;
+  height: 50px;
+  align-content: center;
+  color: aliceblue;
+}
+.addFood {
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: row;
+  
+  height: 100vh; ;
+}
+
+.item {
+  position: fixed;
+  border-bottom: 8px solid rgb(58, 99, 250);
+  width: 90%;
+  height: 200px;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+.wall {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  height: 300px;
+  border-left: 3px solid black;
+}
+
+.macros {
+  background-color: #282c34;
+  position: absolute;
+  right: 0;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.pink {
+  background-color: rgb(255, 0, 230);
+  width: 100px;
+  border-radius: 5px;
+
+}
+
+.lightgreen {
+  background-color: rgb(84, 223, 80);
+  width: 100px;
+  border-radius: 5px;
+}
+
+.macro {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(58, 131, 208);
+  
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+
+
+.nutrient {
+  background-color: #282c34;
+  background-color: 2px solid yellow;
+}
